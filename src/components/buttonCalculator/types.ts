@@ -3,5 +3,5 @@ export interface buttonInterface {
   backgroundColor?: string;
   width?: boolean;
 
-  onPress?: () => void;
+  onPress: (action: string) => void;
 }

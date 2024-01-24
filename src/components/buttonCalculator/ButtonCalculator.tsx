@@ -10,7 +10,7 @@ export const ButtonCalculator = ({
   onPress,
 }: buttonInterface) => {
   return (
-    <TouchableOpacity onPress={onPress}>
+    <TouchableOpacity onPress={() => onPress(text)}>
       <View
         style={{
           ...buttonStyles.button,
